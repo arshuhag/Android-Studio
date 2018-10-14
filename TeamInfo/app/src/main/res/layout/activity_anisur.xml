@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Anisur"
+    android:gravity="center"
+    android:background="#090b0b">
+
+    <ImageView
+        android:id="@+id/anisur"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="30dp"
+        android:padding="2dp"
+        android:src="@drawable/anisur"/>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Anisur Rahaman Shuhag"
+        android:padding="5dp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="30sp"/>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Dhaka, Bangladesh"
+        android:textColor="#fff"
+        android:padding="5dp"
+        android:textSize="25sp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="3dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/profileTV"
+            android:layout_width="0dp"
+            android:layout_height="100sp"
+            android:layout_weight="1"
+            android:text="Profile"
+            android:textStyle="bold"
+            android:textSize="26sp"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:background="#8bd11a"
+            android:layout_marginRight="3dp" />
+        <TextView
+            android:id="@+id/galleryTV"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="100sp"
+            android:layout_weight="1"
+            android:text="Gallery"
+            android:textStyle="bold"
+            android:textSize="26sp"
+            android:textColor="#fff"
+            android:background="#34cca1"
+            android:layout_marginRight="3dp" />
+        <TextView
+            android:id="@+id/aboutTV"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="100sp"
+            android:layout_weight="1"
+            android:text="About"
+            android:textStyle="bold"
+            android:textSize="26sp"
+            android:textColor="#fff"
+            android:background="#f1700e"
+            android:layout_marginRight="3dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="55dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="University of Asia Pacific"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:padding="5dp"
+        android:textSize="25sp"/>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="74/A,Green Road, Dhaka"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:padding="2dp"
+        android:textSize="20sp"/>
+
+</LinearLayout>
