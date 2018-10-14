@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Story"
+    android:background="#fff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/imageview"
+                android:onClick="image"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                android:background="#018786"
+                android:src="@drawable/ic_arrow_back_black_24dp"/>
+
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="        শেখ সাদির গল্প"
+            android:textColor="#fff"
+            android:background="#018786"
+            android:textSize="25sp"
+            android:padding="10dp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#04dac5"
+            android:gravity="center"
+            android:padding="15dp"
+            android:textColor="#fff"
+            android:textSize="23sp"
+            android:layout_marginTop="10dp"
+            android:layout_margin="10dp"/>
+        <TextView
+            android:id="@+id/tvStory"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20dp"
+            android:textSize="20sp"
+            android:textColor="#000000"/>
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
